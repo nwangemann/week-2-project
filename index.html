@@ -2,6 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans&display=swap" rel="stylesheet">
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <script src="js/jquery-3.4.1.js"></script>
@@ -9,129 +10,128 @@
   <title></title>
 </head>
 <body>
-  <div class="intro">
-
-    <h1>Take a quiz to find out which programming language is right for you!</h1>
-    <button type="button" name="takequiz" class="takequiz" id="takequiz">Click here to take the quiz!</button>
-  </div>
   <form class="formQuiz" action="index.html" method="post">
-    <div class="Question-init">
+    <div class="intro" class="container">
+      <h1>Take a quiz to find out which programming language is right for you!</h1>
+      <button type="button" name="takequiz" class="takequiz button" id="takequiz">Click here to take the quiz!</button>
+    </div>
+    <div class="Question-init" class="container">
       <div class="radio" id="Question1">
         <label>
-          <h2>What would you rather spend an afternoon doing?</h2>
+          <h2 class="h2quest">What would you rather spend an afternoon doing?</h2>
           <input type="radio" name="response1" value="0" checked>
-          Learning about how a car engine works
+          <p>Learning about how a car engine works</p>
         </label>
       </div>
       <div class="radio">
         <label>
           <input type="radio" name="response1" value="1">
-          Playing with legos
+          <p>Playing with legos</p>
         </label>
       </div>
       <div class="radio">
         <label>
           <input type="radio" name="response1" value="2">
-          Painting or drawing
+          <p>Painting or drawing</p>
         </label>
       </div>
-      <button type="button" name="button" id="btn1">Next Question!</button>
+      <button type="button" name="button" id="btn1" class="button">Next Question!</button>
     </div>
 
-    <div class="Question-2">
+    <div class="Question-2" class="container">
       <div class="radio" id="Question2">
         <label>
-          <h2>When starting a project, which do you try to figure out first?</h2>
+          <h2 class="h2quest">When starting a project, which do you try to figure out first?</h2>
           <input type="radio" name="response2" value="0" checked>
-          How will this work? How is this <span id=italic>supposed</span> to work?
+          <p>How will this work? How is this <span id=italic>supposed</span> to work?</p>
         </label>
       </div>
       <div class="radio">
         <label>
           <input type="radio" name="response2" value="1">
-          What are we trying to accomplish? What are we trying to make this <span class="italic">do</span>?
+          <p>What are we trying to accomplish? What are we trying to make this <span class="italic">do</span>?</p>
         </label>
       </div>
       <div class="radio">
         <label>
           <input type="radio" name="response2" value="2">
-          How will this look? What do we want our finished project to look like?
+          <p>How will this look? What do we want our finished project to look like?</p>
         </label>
       </div>
-      <button type="button" name="button" id="btn2">Next Question!</button>
+      <button type="button" name="button" id="btn2" class="button">Next Question!</button>
     </div>
 
-    <div class="Question-3">
+    <div class="Question-3" class="container">
       <div class="radio" id="Question3">
         <label>
-          <h2>Which of these events would you rather attend?</h2>
+          <h2 class="h2quest">Which of these events would you rather attend?</h2>
           <input type="radio" name="response3" value="0" checked>
-          A Science Museum
+          <p>A Science Museum</p>
         </label>
       </div>
       <div class="radio">
         <label>
           <input type="radio" name="response3" value="1">
-          A Tech Expo
+          <p> A Tech Expo</p>
         </label>
       </div>
       <div class="radio">
         <label>
           <input type="radio" name="response3" value="2">
-          An Art Gallery
+          <p>An Art Gallery</p>
         </label>
       </div>
-      <button type="button" name="button" id="btn3">Next Question!</button>
+      <button type="button" name="button" id="btn3" class="button">Next Question!</button>
     </div>
 
-    <div class="Question-4">
+    <div class="Question-4" class="container">
       <div class="radio" id="Question4">
         <label>
-          <h2>Which of the following would best describe you?</h2>
+          <h2 class="h2quest">Which of the following would best describe you?</h2>
           <input type="radio" name="response4" value="0" checked>
-          I feel most comfortable with a product when I understand why it works.
+          <p>I feel most comfortable with a product when I understand why it works.</p>
         </label>
       </div>
       <div class="radio">
         <label>
           <input type="radio" name="response4" value="1">
-          I feel most comfortable with a product when I know that it is the best solution for my needs.
+          <p>I feel most comfortable with a product when I know that it is the best solution for my needs.</p>
         </label>
       </div>
       <div class="radio">
         <label>
           <input type="radio" name="response4" value="2">
-          I feel most comfortable with a product when it is well designed and user friendly.
+          <p>I feel most comfortable with a product when it is well designed and user friendly.</p>
         </label>
       </div>
-      <button type="button" name="button" id="btn4">Next Question!</button>
+      <button type="button" name="button" id="btn4" class="button">Next Question!</button>
     </div>
 
-    <div class="Question-5">
+    <div class="Question-5" class="container">
       <div class="radio" id="Question5">
         <label>
           <h4>Last Qustion!</h4>
-          <h2>Which job sounds like the most fun?</h2>
+          <h2 class="h2quest">Which job sounds like the most fun?</h2>
           <input type="radio" name="response5" value="0" checked>
-          Engineer! I like solving problems.
+          <p>Engineer! I like solving problems.</p>
         </label>
       </div>
       <div class="radio">
         <label>
           <input type="radio" name="response5" value="1">
-          Research Scientist! I like experimenting and seeing what things do.
+          <p>Research Scientist! I like experimenting and seeing what things do.</p>
         </label>
       </div>
       <div class="radio">
         <label>
           <input type="radio" name="response5" value="2">
-          Designer! I like creating the aesthetics and appearances of things.
+          <p>Designer! I like creating the aesthetics and appearances of things.</p>
         </label>
       </div>
-      <button type="button" name="button" id="btnfinal">Click here to see your results!</button>
+      <button type="button" name="button" id="btnfinal" class="button">Click here to see your results!</button>
     </div>
 
-    <div class="continer1">
+    <div class="continer1" class="container">
       <div class="ResultsFrontEnd">
         <div class="jumobtron page-header">
           <h3>You should consider learning CSS or JavaScript!</h3>
@@ -139,7 +139,7 @@
         <img src="img/minimal.jpg" alt="">
       </div>
     </div>
-    <div class="continer2">
+    <div class="continer2" class="container">
       <div class="ResultsApp">
         <div class="jumobtron page-header">
           <h3>You should consider learning Python or Ruby!</h3>
@@ -147,7 +147,7 @@
         <img src="img/app.jpg" alt="">
       </div>
     </div>
-    <div class="container3">
+    <div class="container3" class="container">
       <div class="ResultsBackEnd">
         <div class="jumbtron page-header">
           <h3>You should consider learning C# or PHP!</h3>
@@ -155,8 +155,6 @@
         <img src="img/code.jpg" alt="">
       </div>
     </div>
-
-
   </form>
 </body>
 </html>

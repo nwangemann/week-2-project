@@ -155,6 +155,10 @@ body {
   right: 0;
 }
 
+.containerButton {
+  padding: 15px;
+}
+
 #inputBox {
-  padding: 25px;
+  color: black;
 }

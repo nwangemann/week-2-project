@@ -1,3 +1,11 @@
+$(document).ready(function() {
+  event.preventDefault();
+  $(".takequiz").click(function() {
+    $(".Question-1").show();
+  });
+});
+
+
 var response1 = $("input:radio[name=response1]:checked").val();
 var response2 = $("input:radio[name=response2]:checked").val();
 var response3 = $("input:radio[name=response3]:checked").val();

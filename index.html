@@ -9,8 +9,12 @@
   <title></title>
 </head>
 <body>
-  <form class="formQuiz" action="index.html" method="post">
+  <div class="intro">
+
     <h1>Take a quiz to find out which programming language is right for you!</h1>
+    <button type="button" name="takequiz" class="takequiz" id="takequiz">Click here to take the quiz!</button>
+  </div>
+  <form class="formQuiz" action="index.html" method="post">
     <div class="Question-1">
       <div class="radio" id="Question1">
         <label>
@@ -25,7 +29,13 @@
           Painting or drawing
         </label>
       </div>
-      <button type="button" name="button">Next Question!</button>
+      <div class="radio">
+        <label>
+          <input type="radio" name="response1" value="2">
+          Painting or drawing
+        </label>
+      </div>
+      <button type="button" name="button" id="btn1">Next Question!</button>
     </div>
 
     <div class="Question-2">
@@ -42,7 +52,13 @@
           Option 2
         </label>
       </div>
-      <button type="button" name="button">Next Question!</button>
+      <div class="radio">
+        <label>
+          <input type="radio" name="response1" value="1">
+          Painting or drawing
+        </label>
+      </div>
+      <button type="button" name="button" id="btn2">Next Question!</button>
     </div>
 
     <div class="Question-3">
@@ -59,7 +75,13 @@
           Option 2
         </label>
       </div>
-      <button type="button" name="button">Next Question!</button>
+      <div class="radio">
+        <label>
+          <input type="radio" name="response1" value="1">
+          Painting or drawing
+        </label>
+      </div>
+      <button type="button" name="button" id="btn3">Next Question!</button>
     </div>
 
     <div class="Question-4">
@@ -76,13 +98,19 @@
           Option 2
         </label>
       </div>
-      <button type="button" name="button">Next Question!</button>
+      <div class="radio">
+        <label>
+          <input type="radio" name="response1" value="1">
+          Painting or drawing
+        </label>
+      </div>
+      <button type="button" name="button" id="btn4">Next Question!</button>
     </div>
 
     <div class="Question-5">
       <div class="radio" id="Question5">
         <label>
-          <h2>Question</h2>
+          <h2></h2>
           <input type="radio" name="response5" value="0" checked>
           Option 1
         </label>
@@ -93,7 +121,13 @@
           Option 2
         </label>
       </div>
-      <button type="button" name="button">Next Question!</button>
+      <div class="radio">
+        <label>
+          <input type="radio" name="response1" value="1">
+          Painting or drawing
+        </label>
+      </div>
+      <button type="button" name="button" id="btn5">Next Question!</button>
     </div>
 
 

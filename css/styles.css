@@ -49,13 +49,16 @@ p {
   margin-left: 30px;
 }
 
-.container2 {
-  background-image: url("https://imgur.com/rmBkzR0");
+body {
+  /* background-image: url('../img/app.jpg'); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
 }
 
-.container3 {
+/* .container3 {
   background-image: url("https://imgur.com/mxqmAKv");
-}
+} */
 
 .ResultsBackEnd {
   display: none
@@ -66,6 +69,7 @@ p {
 }
 
 .button {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.14), 0 15px 40px 0 rgba(0,0,0,0.14);
   padding-top: 10px;
   background-color: #00487C; /* Green */
   border: none;

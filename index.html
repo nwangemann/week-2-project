@@ -2,6 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans&display=swap" rel="stylesheet">
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
@@ -13,7 +14,14 @@
   <form class="formQuiz" action="index.html" method="post">
     <div class="intro" class="container">
       <h1>Take a quiz to find out which programming language is right for you!</h1>
-      <button type="button" name="takequiz" class="takequiz button" id="takequiz">Click here to take the quiz!</button>
+      <h5>Enter Your Name To Start:</h5>
+      <label for="nameInput">
+        <input type="text" name="nameInput" id="inputBox">
+      </label>
+      <br>
+      <br>
+      <br>
+      <button type="button" name="takequiz" class="takequiz button" id="takequiz"><span>Click here to take the quiz!</span></button>
     </div>
     <div class="Question-init" class="container">
       <div class="radio" id="Question1">

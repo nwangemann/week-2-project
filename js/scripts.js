@@ -2,6 +2,7 @@ $(document).ready(function() {
   $(".takequiz").click(function() {
     $(".Question-init").fadeToggle();
     $(".intro").hide();
+    event.preventDefault();
   });
   $("#btn1").click(function() {
     $(".Question-init").hide();

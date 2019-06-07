@@ -1,23 +1,23 @@
 $(document).ready(function() {
   $(".takequiz").click(function() {
-    $(".Question-init").show();
+    $(".Question-init").fadeToggle();
     $(".intro").hide();
   });
   $("#btn1").click(function() {
     $(".Question-init").hide();
-    $(".Question-2").show();
+    $(".Question-2").fadeToggle();
   });
   $("#btn2").click(function() {
     $(".Question-2").hide();
-    $(".Question-3").show();
+    $(".Question-3").fadeToggle();
   });
   $("#btn3").click(function() {
     $(".Question-3").hide();
-    $(".Question-4").show();
+    $(".Question-4").fadeToggle();
   });
   $("#btn4").click(function() {
     $(".Question-4").hide();
-    $(".Question-5").show();
+    $(".Question-5").fadeToggle();
   });
 });
 
@@ -34,11 +34,11 @@ $(document).ready(function() {
     var results = response1 + response2 + response3 + response4 + response5;
 
     if (results >= 7) {
-      $(".ResultsFrontEnd").show();
+      $(".ResultsFrontEnd").fadeToggle(1200);
     } else if (results < 7 && results > 3) {
-      $(".ResultsApp").show();
+      $(".ResultsApp").fadeToggle(1200);
     } else if (results <= 3) {
-      $(".ResultsBackEnd").show();
+      $(".ResultsBackEnd").fadeToggle(1200);
     }
   });
 });

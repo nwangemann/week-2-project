@@ -3,6 +3,9 @@ $(document).ready(function() {
     $(".Question-init").fadeToggle();
     $(".intro").hide();
     event.preventDefault();
+    var formInput = $("input#inputBox").val();
+    event.preventDefault();
+    $(".nameReplace").text(formInput);
   });
   $("#btn1").click(function() {
     $(".Question-init").hide();
@@ -42,12 +45,4 @@ $(document).ready(function() {
     }
   });
 
-});
-
-
-$("form#formName").submit(function(event) {
-  var formInput = $("input#formName").val();
-
-  event.preventDefault();
-  $("#nameReplace").text("formInput");
 });

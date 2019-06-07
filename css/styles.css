@@ -5,31 +5,36 @@ img {
 h1 {
   font-family: 'Quattrocento Sans', sans-serif;
   color: white;
+  text-shadow: 3px 3px 16px black;
 }
 
 h2 {
   font-family: 'Quattrocento Sans', sans-serif;
   color: white;
+  text-shadow: 3px 3px 16px black;
 }
 
 h4 {
   font-family: 'Quattrocento Sans', sans-serif;
   color: white;
+  text-shadow: 3px 3px 16px black;
 }
 
 h3 {
   text-align: center;
   font-family: 'Quattrocento Sans', sans-serif;
   color: white;
+  text-shadow: 3px 3px 16px black;
 }
 
 p {
   font-size: 15px;
   color: white;
+  text-shadow: 3px 3px 16px black;
 }
 
 body {
-  background-image: url('../img/bck1.jpg');
+  background-image: url('../img/bck8.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-color: black;
@@ -96,6 +101,7 @@ body {
 
 .intro {
   color: white;
+  text-shadow: 3px 3px 16px black;
 }
 
 #italic {

@@ -4,21 +4,41 @@ img {
 
 h1 {
   font-family: 'Quattrocento Sans', sans-serif;
+  color: white;
+}
+
+h2 {
+  font-family: 'Quattrocento Sans', sans-serif;
+  color: white;
+}
+
+h4 {
+  font-family: 'Quattrocento Sans', sans-serif;
+  color: white;
+}
+
+h3 {
+  text-align: center;
+  font-family: 'Quattrocento Sans', sans-serif;
+  color: white;
+}
+
+p {
+  font-size: 15px;
+  color: white;
+}
+
+body {
+  background-image: url('../img/bck1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
 }
 
 .h2quest {
   text-align: center;
   font-family: 'Quattrocento Sans', sans-serif;
   padding-bottom: 10px;
-}
-
-h3 {
-  text-align: center;
-  font-family: 'Quattrocento Sans', sans-serif;
-}
-
-p {
-  font-size: 15px;
 }
 
 .Question-init {
@@ -49,12 +69,6 @@ p {
   margin-left: 30px;
 }
 
-body {
-  /* background-image: url('../img/app.jpg'); */
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: black;
-}
 
 /* .container3 {
   background-image: url("https://imgur.com/mxqmAKv");
@@ -78,6 +92,10 @@ body {
   text-align: center;
   font-size: 16px;
   border-radius: 4px;
+}
+
+.intro {
+  color: white;
 }
 
 #italic {

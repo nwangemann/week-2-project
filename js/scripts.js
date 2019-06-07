@@ -23,7 +23,6 @@ $(document).ready(function() {
 });
 
 
-
 $(document).ready(function() {
   $("#btnfinal").click(function() {
     $(".Question-5").hide();
@@ -42,4 +41,13 @@ $(document).ready(function() {
       $(".ResultsBackEnd").fadeToggle(1200);
     }
   });
+
+});
+
+
+$("form#formName").submit(function(event) {
+  var formInput = $("input#formName").val();
+
+  event.preventDefault();
+  $("#nameReplace").text("formInput");
 });

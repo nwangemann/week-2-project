@@ -1,3 +1,11 @@
+img {
+  max-width: 700px;
+}
+
+h3 {
+  text-align: center;
+}
+
 .Question-init {
   display: none
 }
@@ -22,10 +30,32 @@
   display: none
 }
 
+.intro {
+  background-color: solid blue;
+  background-attachment: fixed;
+  background-image: url("https://imgur.com/wcp5qnW");
+}
+
+.container2 {
+  background-image: url("https://imgur.com/wcp5qnW");
+}
+
+.container2 {
+  background-image: url("https://imgur.com/rmBkzR0");
+}
+
+.container3 {
+  background-image: url("https://imgur.com/mxqmAKv");
+}
+
 .ResultsBackEnd {
   display: none
 }
 
 .ResultsApp {
   display: none
+}
+
+#italic {
+  font-style: italic;
 }

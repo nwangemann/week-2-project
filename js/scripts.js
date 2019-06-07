@@ -33,7 +33,6 @@ $(document).ready(function() {
     var response5 = parseInt($("input:radio[name=response5]:checked").val());
     var results = response1 + response2 + response3 + response4 + response5;
 
-    alert(results)
     if (results >= 7) {
       $(".ResultsFrontEnd").show();
     } else if (results < 7 && results > 3) {
